@@ -1,0 +1,18 @@
+Commands in Shell Scripting
+
+1. Assign value to a variable 
+
+<variable-name> = <value>
+Eg: country="Canada"
+
+2. Print the value assigned to a variable 
+
+echo $<variable-name>
+Eg: echo $country
+
+3. Take input from a user
+
+read <variable-name in which you want to store user's input>
+Eg: read country
+
+
