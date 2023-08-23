@@ -15,4 +15,14 @@ Eg: echo $country
 read <variable-name in which you want to store user's input>
 Eg: read country
 
+4. If else 
+
+if [<condition>]
+then
+	<commands or the program to execute if condition is true>
+
+else
+	<commands or program to execute if condition is false>
+fi
+
 
