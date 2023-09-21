@@ -1,0 +1,50 @@
+1. ls => to print all the files and folders in current directory
+
+Eg:
+ls   
+Linux          ShellScripting
+
+
+2. ls -l => to print all files and folders in long format with the permissions it is having 
+
+Eg : 
+ls -l
+total 0
+drwxr-xr-x  4 kushaggarwal  staff  128 Aug 26 00:20 Linux
+drwxr-xr-x  7 kushaggarwal  staff  224 Aug 24 00:22 ShellScripting
+
+
+3. touch <file-name> => to create a new file
+
+Eg:
+touch test.txt
+
+4. cd => Change directory 
+
+Eg:
+cd <directory-name>
+cd <path to any file or directory>
+
+5. vi <file name> => to edit the file and manupilate data inside it 
+
+Eg:
+vi test.txt
+
+- To insert data inside the file, press i on keyboard
+- To exit the insert mode and save the data of file, press Esc on keyboard followed by writing :wq
+- In case of any wrong mode or file getting stuck, simply press Esc on keyboard
+
+6. mkdir <directory name> => To create a new directory
+
+Eg:
+mkdir test
+
+7. echo <any-expression> => To print any any expression on screen
+
+Eg:
+echo "Hello World"
+
+8. cat <filename> => View data inside any file 
+
+Eg:
+cat test.txt
