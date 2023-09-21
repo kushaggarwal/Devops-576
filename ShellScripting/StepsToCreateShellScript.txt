@@ -1,0 +1,33 @@
+1. Create the file with extension .sh
+
+touch script.sh
+
+2. Add commands to run in shell script 
+
+vi script.sh
+
+3. Press i on keyboard to get into insert mode 
+
+4. Add the following lines into the file
+
+#!/bin/bash
+
+fruits = "apple"
+
+echo $fruits
+
+5. Save the file by pressing Esc button and writing :wq
+
+6. Update the permissions to run the file 
+
+chmod 744 script.sh
+
+7. Check the executable permissions for the file by running ls -l command
+
+Eg :
+
+-rwxr--r--@  1 kushaggarwal  staff          0 Aug 26 00:41 script.sh
+
+8. Run the shell script to get the output 
+
+./script.sh
